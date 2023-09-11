@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar";
 import News from "./Components/News";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
-import LoadingBar from "react-top-loading-bar";
+
 // const { v4: uuidv4 } = require("uuid");
 export default class App extends Component {
   pageSize = 6;
